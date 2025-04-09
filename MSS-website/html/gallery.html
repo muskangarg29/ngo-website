@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MUSKAN SEVA SANGATHAN</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <img src="/images/logo 1.png" alt="MUSKAN SEVA SANGATHAN Logo">
+        </div>
+        <h1>MUSKAN SEVA SANGATHAN</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="initiative.html">Initiatives</a></li>
+          <li><a href="csr.html">CSR</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+      <h1 class="gallery-title">Our Gallery</h1>
+  
+      <!-- Filter Buttons -->
+      <div class="filter-buttons">
+          <button class="filter-btn active" data-category="all">All</button>
+          <button class="filter-btn" data-category="events">Events</button>
+          <button class="filter-btn" data-category="volunteering">Volunteering</button>
+          <button class="filter-btn" data-category="achievements">Achievements</button>
+      </div>
+  
+      <!-- Image Gallery -->
+      <div class="gallery">
+          <div class="gallery-item events">
+              <img src="/images/gal1.jpg" alt="gal1" onclick="openLightbox(this)">
+          </div>
+          <div class="gallery-item volunteering">
+              <img src="/images/gal2.jpg" alt="gal2" onclick="openLightbox(this)">
+          </div>
+          <div class="gallery-item achievements">
+              <img src="/images/gal3.jpg" alt="gal3" onclick="openLightbox(this)">
+          </div>
+          <div class="gallery-item events">
+              <img src="/images/gal4.jpg" alt="gal4" onclick="openLightbox(this)">
+          </div>
+          <div class="gallery-item volunteering">
+              <img src="/images/gal5.jpg" alt="gal5" onclick="openLightbox(this)">
+          </div>
+          <div class="gallery-item achievements">
+              <img src="/images/gal10.jpg" alt="gal6" onclick="openLightbox(this)">
+          </div>
+      </div>
+  
+      <!-- Lightbox -->
+      <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+          <img id="lightbox-img" src="" alt="Full Image">
+      </div>
+  
+      <script src="script.js"></script>
+  </body>
+  </html>
+  
+  
+</html>
+  <footer>
+    <div class="video-background">
+      <video src="/images/banner.webm" autoplay loop muted playsinline></video>
+    </div>
+    <div class="footer-content">
+      <p>&copy; 2025 MUSKAN SEVA SANGATHAN. All rights reserved.</p>
+    </div>
+  </footer> 
+</body>
+</html>
